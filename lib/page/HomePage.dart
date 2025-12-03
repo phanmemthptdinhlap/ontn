@@ -50,12 +50,11 @@ class _HomePageState extends State<HomePage> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  hintText: 'Nhập nội dung tại đây...',
+                  hintText: 'Nhập nội dung đề thi tại đây...',
                   contentPadding: const EdgeInsets.all(12),
                 ),
               ),
             ),
-            const SizedBox(height: 16),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
